@@ -1,9 +1,11 @@
 {
   "name": "@mahjongg/mern-mvc",
   "version": "1.2.0",
-  "description": "A CLI that will build a mern stack application using create-react-app",
+  "description": "A CLI that will build a MERN stack application using create-react-app",
   "preferGlobal": true,
-  "bin": "./index.js",
+  "bin": {
+    "mern-mvc": "./index.js"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -14,5 +16,19 @@
     "create-react-app": "^1.5.2",
     "spawn-npm-install": "^1.2.0",
     "superspawn": "^0.1.0"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords" : ["MERN","MVC","Scaffold","React","Server","Authentication"],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-hoppenworth/mern-mvc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eric-hoppenworth/mern-mvc/issues"
+  },
+  "homepage": "https://github.com/eric-hoppenworth/mern-mvc#readme"
 }
