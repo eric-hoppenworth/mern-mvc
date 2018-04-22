@@ -1,4 +1,4 @@
-module.exports = 
+module.exports =
 `import React from 'react';
 import "./style.css";
 
@@ -10,6 +10,6 @@ const Home = (props) =>{
 			<button onClick = {props.handleLogout}>Log Out</button>
 		</div>
 	);
-}
+};
 
 export default Home;`;

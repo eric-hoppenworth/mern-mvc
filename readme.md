@@ -46,5 +46,3 @@ The React app has some very basic authentication forms included, but you are fre
 
 * Add more configuration/allow passport to be omitted.
 * Add a .gitignore
-* Add a flag to skip npm instalations, and instead add dependencies to package.json
-* fix terminal colors on end

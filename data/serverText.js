@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("client/build"));
 
  // For Passport
-app.use(session({ secret: 'changeThis',resave: true, saveUninitialized:true})); // session secret
+app.use(session({ secret: 'superSecret${name}',resave: true, saveUninitialized:true})); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 require('./config/passport.js')(passport,models.User);
