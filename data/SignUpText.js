@@ -1,4 +1,4 @@
-module.exports = 
+module.exports =
 `import React from 'react';
 import "./style.css";
 import {Link} from 'react-router-dom';
@@ -19,6 +19,6 @@ const SignUp = (props)=> {
 			</form>
 		</div>
 	);
-}
+};
 
 export default SignUp;`;
